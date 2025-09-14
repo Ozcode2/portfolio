@@ -36,7 +36,7 @@ const Project = () => {
       if (projectRef.current) observer.unobserve(projectRef.current);
     };
   }, []);
-  
+
   return (
     <div className="projects sec-pad">
       <div className="pro-container">
@@ -62,7 +62,7 @@ const Project = () => {
               </p>
               <div className="social-content">
                 <a
-                  href="https://amazon-clone-ozcode.vercel.app/"
+                  href="https://amazon-clone-c5e64.netlify.app/"
                   target="_blank"
                 >
                   <FontAwesomeIcon
@@ -101,7 +101,7 @@ const Project = () => {
                 experience top-notch
               </p>
               <div className="social-content">
-                <a href="https://moon-app-ten.vercel.app/" target="_blank">
+                <a href="https://moon-app-03.netlify.app/" target="_blank">
                   <FontAwesomeIcon
                     className="social-media"
                     icon={faGlobe}
@@ -136,7 +136,7 @@ const Project = () => {
               </p>
               <div className="social-content">
                 <a
-                  href="https://achievers-educare-academy.vercel.app/"
+                  href="https://achievers-educare-academy.netlify.app/"
                   target="_blank"
                 >
                   <FontAwesomeIcon
