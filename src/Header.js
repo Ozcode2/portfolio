@@ -33,12 +33,17 @@ const Header = ({ scrollToSection }) => {
         >
           <div className="header__logo-img-cont">
             <img
-              src="./code.png"
+              src="./logo.png"
               alt="Ozcode Logo Image"
               className="header__logo-img"
             />
           </div>
-          <span className="header__logo-sub">Øzcode</span>
+          <div className="header__symbol">
+            <span className="header__logo-sub">ØzcoTech</span>
+            <span className="header__slogan">
+              <i>Code . Create . Innovate</i>
+            </span>
+          </div>
         </div>
         <div className="header__main">
           <ul className="header__links">

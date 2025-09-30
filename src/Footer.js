@@ -7,7 +7,6 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useRef } from "react";
 
-
 const Footer = () => {
   const today = new Date();
 
@@ -102,10 +101,10 @@ const Footer = () => {
           </div>
         </div>
         <div className="main-footer__lower">
-          Copyright ØzcodeTech &copy; {today.getFullYear()} made by
+          Copyright ØzcoTech &copy; {today.getFullYear()} Developed by
           <a rel="noreferrer" target="_blank" href="/">
             {" "}
-            Øzcode
+            ØzcoTech inc.
           </a>
         </div>
       </div>
