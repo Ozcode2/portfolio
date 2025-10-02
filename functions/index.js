@@ -10,8 +10,8 @@ const app = express();
 app.use(cors({origin: true}));
 app.use(express.json());
 
-const gmailEmail = functions.config().email.user;
-const gmailPassword = functions.config().email.pass;
+const gmailEmail = functions.config().gmail.email;
+const gmailPassword = functions.config().gmail.password;
 
 const transporter = nodemailer.createTransport({
   service: "gmail",
@@ -27,7 +27,7 @@ app.post("/sendMessage", async (req, res) => {
 
   const mailOptions = {
     from: `"${name}" <${email}>`, // Sender info
-    to: functions.config().email.user, // Recipient email
+    to: gmailEmail, // Recipient email
     subject: "New Contact Form Message",
     text:
       `You received a message from:\nName: ${name}\nEmail: ${email}\n` +
